@@ -1,3 +1,11 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(../images/houndstooth-pattern.png);
+  
+}
+
+
 header {
     background: white;
     border: solid #dddddd;
@@ -6,8 +14,6 @@ header {
     left: 0;
     width: 100%;
 
-  
-    
 }
 
 .name {
@@ -22,7 +28,7 @@ header {
     float: left;
 }
 
-.ab {
+.nav {
     position: relative;
     left: 260px;
     top: 40px;
@@ -30,26 +36,18 @@ header {
 }
 
 
-.wrapper {
-    margin: 0 auto 0 auto;
-    padding: 20px;
-    margin-top: 40px;
-
-}
-
 
 .about {
-    padding: 20px;
-    width: 960px;
-    margin-left: 200px;
-    margin-bottom: 40px;
-    border: solid #dddddd;
-    margin-top: 40px;
-    margin-bottom: 140px;
-    background: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    position: fixed;
+    padding: 20px;
+    width: 914px;
+    border: solid #dddddd;
+    background: white;
+    position: relative;
     top: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 500px;
 
 }
 
@@ -64,28 +62,8 @@ img {
     margin-top: 10px;
 }
 
-footer {
-    background: #666666;
-    padding: 25px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-    color: #dddddd;
-    padding-bottom: 5px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    
-}
 
-body {
-   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-   color: #777777;
-   background: #faf0e6;
-   
-}
+
 
 input[type=text], select, textarea {
     width: 100%;
@@ -115,9 +93,37 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: white;
     padding: 20px;
-  
 
 }
 
+.two {
+    position: relative;
+    top: 210px;
+    right: 440px;
+}
+
+.three {
+    position: relative;
+    float: right;
+    bottom: 210px;
+    right: 255px;
+}
+
+footer {
+    border-top: solid 8px #4aaaa5;
+    background: #666666;
+    padding: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    color: #dddddd;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    
+}
 
 
