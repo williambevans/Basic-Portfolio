@@ -1,63 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>WHBJ Portfolio</title>
+<!doctype html>
+<html lang="en-us">
 
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-        
-        <header>
-            
-            <h1 class="name">William Hamilton Bevans Jr.</h1>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-            <div class="nav">About - Contact - Portfolio</div>
-          
-        </header>
-    
-        <div class="wrapper">
-        <div class="about">
-    
-        <h1 id="me">Contact</h1>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-    
+    </section>
 
-        <hr>
-      
-        <div class="container">
-            <form action="/action_page.php">
-              <label for="fname">Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Email</label>
-              <input type="text" id="lname" name="lastname" placeholder="Email..">
-          
-           
-          
-              <label for="subject">Message</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:120px"></textarea>
-          
-              <input type="submit" value="Submit">
-            </form>
-          </div>
+  </div>
 
-        
-
-        </div>
-        </div>
-
-
-     
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
- 
-    <footer>Copyright</footer>
-    
 
 </html>
+
